@@ -1,0 +1,652 @@
+*{
+    
+    padding:0;
+    
+    margin:0;
+    
+    box-sizing:border-box;
+    
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+                                 /*INICIO DEFOOTER*/
+footer {
+    background-color: #fcf7eb;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+footer p {
+    text-align: center;
+}
+footer a {
+    
+    margin-left: 50%;
+    margin-right: 50%;
+    
+}
+
+.wppmail{
+    display: inline;
+}
+
+.derechos-reservados {
+    background-color: #fcf7eb;
+    text-align: center;
+}
+
+                                 /* FIN DE FOOTER*/
+
+
+
+
+
+
+                                 /*INICIO DE NAV*/
+
+header {
+    background-color: #fcf7eb;
+    height: 100%;
+    
+}
+
+
+.logo {
+    background-image: url(../img/marca\ de\ ropa\ en\ color.jpg);
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.navppal {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.mercado {
+    text-align: end;
+    color: black;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navppal :hover {
+    background-color: #E8DCC6;
+    
+}
+
+
+
+
+                                 /*FIN DE NAV*/
+
+
+
+
+
+
+                                 /*INICIO DE MAIN */
+
+
+ .contenedor {
+      background-image: url(../img/imagengrande.JPG);
+      height: 100%;
+      width:  100%;
+      object-fit: cover;
+      background-position: center;
+      background-size: cover;
+ }  
+ 
+ 
+
+
+ .pieimgagengrande {
+     padding-top: 28rem;
+     padding-left: 10px;
+     font-size: 1rem;
+     
+    }
+   
+ .pieimgagengrande  h3 {
+     padding: 0px;
+ }
+  
+ 
+
+
+    .imagenizquierda {
+        background-image: url(../img/buzos.jpg);
+        
+        width:  100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 10px;
+        height: 649px;
+    }
+    
+    .imagenderecha {
+        background-image: url(../img/poulover\ mostaza.JPG);
+        height: 649px;
+        width:  100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 10px;
+        
+    }
+    
+      
+                                 
+   .cajaspequeñas{
+       padding-top: 580px;
+       padding-left: 20px;
+    }
+                                 
+     .botonimg {
+         padding: 15px;
+         border-radius: 50px;
+         opacity: 0.5;
+         background-color: #E8DCC6;
+         font-size: 5px; 
+                       
+         
+        }
+        
+        
+        
+        
+        .botonimg:hover {
+            background-color: black;
+            color: white;
+            
+        }
+        
+        .botonimg a {
+            color: black;
+            opacity: 1;
+            
+        }
+        
+        .botonimg a:hover {
+            background-color: black;
+            color: white;
+            
+        }
+        
+        
+        .simbolos {
+            text-decoration: none;
+            color: black;
+        }
+        
+        button a{
+            font-size: 15px;
+        }
+                                
+                                    /*FIN DE MAIN*/
+
+
+
+
+
+                                    /*INICIO DE SHOP y sett*/
+
+                                    
+ .fila-uno-shop-sett {
+    display: flex;
+    margin-top: 1rem ;
+    object-fit: cover;
+    object-position: center;
+    height: 584px;
+    width: 100%;
+}
+                                    
+.fila-dos-shop-sett {
+    display: flex;
+    object-fit: cover;
+    object-position: center;
+    height: 584px;
+    width: 100%;
+    margin: 0;
+} 
+
+.fila-tres-shop-sett {
+    display: flex;
+    
+    object-fit: cover;
+    object-position: center;
+    height: 584px;
+    width: 100%;
+    
+}
+
+.fila-cuatro-shop-sett {
+    display: flex;
+    object-fit: cover;
+    object-position: center;
+    height: 584px;
+    width: 100%;
+}
+
+.iconos{
+    display: inline-block;
+}
+
+
+.imagenes {
+    margin: 1rem;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    
+}
+.main-shop-sett{
+    margin-block-start: 0ch;
+}
+
+.contenedorcarta figure{
+    position: relative;
+
+}
+.contenedorcarta figure img {
+    height: 100%;
+    width: 100%;
+}
+.contenedorcarta figure .capa{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 75%;
+    background-color:#E8DCC6;
+    text-align: center;
+    margin-top: 9%;
+    margin-left: 4%;
+    padding-left: 25%;
+    padding-right: 18%;
+    width: 100%;
+    opacity: 0.5;
+}
+.contenedorcarta figure .capa p{
+
+margin-top: 35%;
+}
+.contenedorcarta figure .capa h6{
+    text-transform: uppercase;
+}
+.contenedorcarta figure .capa:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+ 
+                                     /*FIN DE SHOP y sett*/
+
+  
+
+
+
+
+
+                                       /*INICIO DE BRAND*/
+
+.mainbrand {
+    height: 50rem;
+    background-color: #1b3d21;
+    color: white;
+    
+    }
+    
+    .mainbrand h2, h3{
+        text-transform: uppercase;
+        padding: 50px;
+    }
+    
+    .conteinterbrand {
+     margin-left: 20rem;
+    }
+    
+    
+    .conteinterbrand h2{
+        margin-right: 20rem;
+        font-size: 2rem;
+    }
+    
+    .conteinterbrand p{
+     font-size: 30px;
+    }
+
+                                          /*FIN DE BRAND*/
+
+
+
+
+                                          /* INICIO DE FORMULARIO*/
+
+.formulario {
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 5rem;
+    margin-bottom: 29rem;
+    background-color: #fcf7eb;
+    border-color: #fcf7eb;
+    padding: 20px;
+  
+}
+
+
+.titulo-formulario {
+    text-align: center;
+    margin-top: 4px;
+    text-transform: uppercase;
+}
+
+fieldset {
+    text-align: center;
+}
+
+.boton-formulario {
+    width: 60%;
+    background-color: #E8DCC6;
+}
+
+.checkbox {
+    display: flex;
+    margin-left: 175px;
+}
+
+.boton-de-enviar {
+    display: block;
+    margin-left: 660px;
+}
+                                             /*FIN DE FORMULARIO*/
+
+
+                                             /*GRID HOME*/
+
+.contegrid {
+display: grid;
+
+grid-template-areas: "principal principal principal principal"
+                     "principal principal principal principal"
+                     "imagensecundaria imagensecundaria imagentercearia imagentercearia"
+                     "imagensecundaria imagensecundaria imagentercearia imagentercearia" ;
+}
+
+.conteinergridimg1 {
+    grid-area: principal;
+    
+}
+
+.conteinergridimg2 {
+    grid-area: imagensecundaria;
+    
+    
+}
+
+.conteinergridimg3 {
+    grid-area: imagentercearia;
+    
+}
+
+.imagenespequeñas {
+    margin-top: 1rem;
+} 
+
+  
+
+                                    /*FIN GRID HOME*/
+
+                                    /*INICIO GRID SHOP*/
+
+   
+  
+    
+ .gridfilas {
+    grid-template-rows: 25% 25% 25% 25%;
+    margin:10px ;
+    grid-gap: 10px;
+    justify-content: space-evenly;
+    
+
+}
+
+                                    /*FIN GRID SHOP */
+
+
+                                    
+
+
+
+
+
+
+
+
+                                    /*MEDIA QUARIES*/
+
+    @media  SCREEN  and (max-width: 500px ) { 
+     
+
+                   /*------------------home--------------------*/           
+
+        
+          header {
+                  width: 100%;
+              }
+
+        .navppal {
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            
+        }
+        
+        a {
+            text-align: center;
+            height: 50%;
+        }
+        .conteinergridimg2 {
+            display: flex;
+        }
+
+
+        .logo {
+            margin: 0px auto;
+            height: 155px;
+            width: 270px;
+            object-fit: cover;
+            
+        }
+        .mercado {
+           text-align: start;
+           
+        }
+        .cajaspequeñas {
+    
+            margin-bottom: 0px;
+            padding-top: 490px;
+        }
+        
+        .contegrid {
+
+        grid-template-areas:
+                     "principal principal principal principal"
+                     "principal principal principal principal"
+                     "imagensecundaria imagensecundaria imagensecundaria imagensecundaria" 
+                      "imagentercearia imagentercearia imagentercearia imagentercearia"
+        }
+    
+        .imagenderecha {
+         background-size: cover;
+        
+       
+    }
+       .imagenizquierda {
+         background-size: cover;
+    }
+
+
+       footer h3{
+         height: 30px; 
+        padding: 0px;    
+     }
+
+        footer {
+        width: 100% ;
+        display: block;
+     }
+    
+       .h3footer {
+        text-align: center;
+       }
+                     /*------------------home--------------------*/ 
+footer {
+    width: 100%;
+}
+.wppmail {
+    margin-top: 10px;
+}
+
+
+                     /*------------------brand--------------------*/
+
+.brand h3 {
+    font-size: 5px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.conteinterbrand {
+    padding: 10px;
+    margin: 0px;
+    font-size: 3px;
+}
+.conteinterbrand p {
+    font-size: 16px;
+}
+.conteinterbrand h2 {
+    margin-right: 0px;
+    font-size: 15px;
+}
+
+
+.mainbrand h2, h3 {
+    text-transform: uppercase;
+    padding: 50px;
+    
+    
+    
+}
+
+
+fieldset {
+    display: contents;
+}
+
+.checkbox {
+    display: flex;
+    margin-left: 0;
+    
+    
+    
+}
+
+.boton-de-enviar {
+    margin-left: 0;
+    
+    
+    
+}
+
+
+
+
+
+     /*------------------shop--------------------*/
+
+
+.shop-sett {
+    display: block;
+    width: auto;
+    height: auto;
+}
+.main-shop-sett {
+    width: 100%;
+}
+
+
+
+
+
+
+/*------------------sett--------------------*/
+
+.conjuntouno {
+    display: flex;
+    flex-direction: column;
+    
+}
+.conjuntodos {
+    margin-top: 1700px;
+     display: flex;
+     flex-direction: column;
+ }
+ .conjuntotres {
+     margin-top: 1700px;
+     display: flex;
+     flex-direction: column;
+    }
+    
+    
+    .footer-sett{
+        margin-top: 1700px;
+    }
+    
+    
+    
+    
+}
+    
+    
+
+/*-------------------------------------------ANIMACION-----------------------------------------------------------*/
+
+.animacion {
+     animation-name: redes;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+
+}
+@keyframes redes{
+    0% {
+        transform: translatey(0%);
+    }
+    
+    100% {
+      transform: translatey(-10px);
+    }
+}
