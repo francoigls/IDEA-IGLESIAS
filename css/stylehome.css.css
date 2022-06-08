@@ -8,38 +8,8 @@
     
 }
 
-body {
-    font-family: 'Lora', serif;
-}
-                                 /*INICIO DEFOOTER*/
-footer {
-    background-color: #fcf7eb;
-    margin-top: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-}
-footer p {
-    text-align: center;
-}
-footer a {
-    
-    margin-left: 50%;
-    margin-right: 50%;
-    
-}
 
-.wppmail{
-    display: inline;
-}
 
-.derechos-reservados {
-    background-color: #fcf7eb;
-    text-align: center;
-}
-
-                                 /* FIN DE FOOTER*/
 
 
 
@@ -48,12 +18,8 @@ footer a {
 
                                  /*INICIO DE NAV*/
 
-header {
-    background-color: #fcf7eb;
-    height: 100%;
-    
-}
 
+/*
 
 .logo {
     background-image: url(../img/marca\ de\ ropa\ en\ color.jpg);
@@ -63,35 +29,8 @@ header {
     margin-left: auto ;
     margin-right: auto;
 }
-.navppal {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    color: black;
-    text-transform: uppercase;
-    font-size: 20px;
-}
 
-.mercado {
-    text-align: end;
-    color: black;
-}
-
-
-
-a {
-    text-decoration: none;
-    color: black;
-    
-}
-
-.navppal :hover {
-    background-color: #E8DCC6;
-    
-}
-
+*/
 
 
 
@@ -105,7 +44,7 @@ a {
                                  /*INICIO DE MAIN */
 
 
- .contenedor {
+ /*.contenedor {
       background-image: url(../img/imagengrande.JPG);
       height: 100%;
       width:  100%;
@@ -123,57 +62,66 @@ a {
      font-size: 1rem;
      
     }
-   
- .pieimgagengrande  h3 {
-     padding: 0px;
- }
-  
+    .botonimg {
+        padding: 15px;
+        border-radius: 50px;
+        opacity: 0.5;
+        background-color: #E8DCC6;
+        font-size: 5px; 
+                      
+        
+       }
+       
+       .pieimgagengrande  h3 {
+           padding: 0px;
+        }
+        
+        .imagenizquierda {
+            background-image: url(../img/buzos.jpg);
+            
+            width:  100%;
+            object-fit: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-top: 10px;
+            height: 649px;
+        }
+        
+        .imagenderecha {
+            background-image: url(../img/buzos.jpg);
+            
+            width:  100%;
+            object-fit: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-top: 10px;
+            height: 649px;
+        }
+        
+    */
  
 
 
-    .imagenizquierda {
-        background-image: url(../img/buzos.jpg);
-        
-        width:  100%;
-        object-fit: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin-top: 10px;
-        height: 649px;
-    }
-    
-    .imagenderecha {
-        background-image: url(../img/poulover\ mostaza.JPG);
-        height: 649px;
-        width:  100%;
-        object-fit: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin-top: 10px;
-        
-    }
-    
       
                                  
-   .cajaspequeñas{
+   /*.cajaspequeñas{
        padding-top: 580px;
        padding-left: 20px;
     }
-                                 
-     .botonimg {
-         padding: 15px;
-         border-radius: 50px;
-         opacity: 0.5;
-         background-color: #E8DCC6;
-         font-size: 5px; 
-                       
-         
-        }
+    .botonimg a {
+        color: black;
+        opacity: 1;
+        
+    }
+    button a{
+        font-size: 15px;
+    }
+     */                            
         
         
-        
+    /*    
         
         .botonimg:hover {
             background-color: black;
@@ -181,11 +129,6 @@ a {
             
         }
         
-        .botonimg a {
-            color: black;
-            opacity: 1;
-            
-        }
         
         .botonimg a:hover {
             background-color: black;
@@ -199,10 +142,7 @@ a {
             color: black;
         }
         
-        button a{
-            font-size: 15px;
-        }
-                                
+        */                          
                                     /*FIN DE MAIN*/
 
 
