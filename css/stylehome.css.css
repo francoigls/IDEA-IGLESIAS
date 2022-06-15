@@ -11,18 +11,19 @@
 
 
 
-
-
-
-
-
-                                 /*INICIO DE NAV*/
-
-
-/*
+                               /*INICIO DE HEADER*/
+header {
+    background-color: #fcf7eb;
+    height: 100%;
+}
+header .mercado {
+     text-align: end;
+     color: black;
+     font-size: 25px;
+}
 
 .logo {
-    background-image: url(../img/marca\ de\ ropa\ en\ color.jpg);
+    background-image: url(../img/marca\ de\ ropa\ en\ co.jpg);
     height: 200px;
     width: 400px;
     background-size: cover;
@@ -30,21 +31,72 @@
     margin-right: auto;
 }
 
-*/
+
+                                 /*INICIO DE NAV*/
 
 
+
+
+
+nav {
+    display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            color: black;
+            text-transform: uppercase;
+            font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+                color: black;
+}
+nav a:hover {
+    background-color: #E8DCC6 ;
+}
 
                                  /*FIN DE NAV*/
 
+                                /*INICIO FOOTER*/
 
+     footer {
+        background-color: #fcf7eb;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+     .div-footer{
+        display: inline;
+     }
+     footer a{margin-left: 50%;
+                 margin-right: 50%;
+                 font-size: 30px;
+                 display: block;
 
+     }
+     footer div p{
+        text-align: center;
+     }
+     
+     footer .fb {
+        color: blue;
+     }
+     footer .ig {
+        color: blueviolet;
+     }
+     .derechos-reservados {
+        background-color: #fcf7eb;
+        text-align: center;
+     }
 
+                                /*FIN FOOTER*/
 
 
                                  /*INICIO DE MAIN */
 
 
- /*.contenedor {
+ .contenedor {
       background-image: url(../img/imagengrande.JPG);
       height: 100%;
       width:  100%;
@@ -89,7 +141,7 @@
         }
         
         .imagenderecha {
-            background-image: url(../img/buzos.jpg);
+            background-image: url(../img/poulover\ mostaza.JPG);
             
             width:  100%;
             object-fit: cover;
@@ -100,13 +152,13 @@
             height: 649px;
         }
         
-    */
+    
  
 
 
       
-                                 
-   /*.cajaspequeñas{
+                                
+   .cajaspequeñas{
        padding-top: 580px;
        padding-left: 20px;
     }
@@ -118,10 +170,10 @@
     button a{
         font-size: 15px;
     }
-     */                            
+                                 
         
         
-    /*    
+        
         
         .botonimg:hover {
             background-color: black;
@@ -142,7 +194,7 @@
             color: black;
         }
         
-        */                          
+                                  
                                     /*FIN DE MAIN*/
 
 
@@ -451,7 +503,8 @@ grid-template-areas: "principal principal principal principal"
 
        footer h3{
          height: 30px; 
-        padding: 0px;    
+        padding: 0px;   
+        text-align: center; 
      }
 
         footer {
@@ -459,9 +512,8 @@ grid-template-areas: "principal principal principal principal"
         display: block;
      }
     
-       .h3footer {
-        text-align: center;
-       }
+     
+
                      /*------------------home--------------------*/ 
 footer {
     width: 100%;
